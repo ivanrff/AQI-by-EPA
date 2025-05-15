@@ -20,3 +20,7 @@ This is a data analysis study I did on the US Environmental Protection Agency op
 | **Days Ozone**                          | Number of days where ground-level ozone was the dominant pollutant affecting the AQI.                                                                                                              |
 | **Days PM2.5**                          | Number of days where fine particulate matter (PM2.5) was the primary pollutant.                                                                                                                    |
 | **Days PM10**                           | Number of days where coarse particulate matter (PM10) was the primary pollutant.                                                                                                                   |
+
+# Data Analysis
+
+- https://github.com/ivanrff/AQI-by-EPA/blob/main/AQI_throughout_years.md
