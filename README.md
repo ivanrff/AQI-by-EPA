@@ -23,7 +23,7 @@ This is a data analysis study I did on the US Environmental Protection Agency op
 
 # A Warning
 
-First thing, there's a problem evidenced in the 'Days with AQI' column. Some rows have a low amount of days measured, which can skew the data.
+First thing, there's a problem evidenced in the `Days with AQI` column. Some rows have a low amount of days measured, which can skew the data.
 
 Example:
 | State  | County | Year | Days with AQI | Good Days | Moderate Days | Unhealthy for Sensitive Groups Days | Unhealthy Days | Very Unhealthy Days | Hazardous Days |
@@ -35,9 +35,9 @@ This data, would make us assume that in 1988, Park, Montana had either 1 Hazardo
 # Average of Air Quality throughout the years
 
 ## 1st Step
-Get the weighted AQI value of each 'State' by getting the sum() of all 'County's by 'Year' and dividing by the sum() of Days of measured AQI. Example:
+Get the weighted AQI value of each 'State' by getting the sum() of all `County`s by `Year` and dividing by the `sum()` of `Days of measured AQI`. Example:
 
-| State  | County | Year | Days with AQI | Good Days |
+| State | County | Year | Days with AQI | Good Days |
 | ------ | ------ | ---- | ------------- | --------- |
 | Montana|	  Park|	 1988|	           36| 26        |
 | Montana| Cascade|	 1988|	          206|   178     |
@@ -52,13 +52,17 @@ Would result in one row such as:
 | Montana|	 1988| 0.84        |
 
 ## 2nd Step
-Get the average value of the entire country by getting the average of all 'State's by 'Year' (Group by 'Year', merging all 'State's and aggregating columns by the average).
+Get the average value of the entire country by getting the average of all `State`s by `Year` (Group by `Year`, merging all `State`s and aggregating columns by the average).
 
 ## 3rd Step: Plot
 ![AQI_throughout_years](plots/AQI_throughout_years.png)
 
-We can observe that the average number of Hazardous days has been steadily increasing over the years, likely encroaching on the number of Very Unhealthy days, which have been on the decline.
+We can observe that the average number of `Hazardous` days has been steadily increasing over the years, likely encroaching on the number of `Very Unhealthy` days, which have been on the decline.
 
-In 1999, the balance between Good and Moderate days—which had already been fluctuating since around 1988–1989—was noticeably disrupted. A brief investigation suggests that widespread wildfires in the western U.S., along with tornadoes and thunderstorms, may have influenced the air quality measurements that year.
+In 1999, the balance between `Good` and `Moderate` days—which had already been fluctuating since around 1988–1989—was noticeably disrupted. A brief investigation suggests that widespread wildfires in the western U.S., along with tornadoes and thunderstorms, may have influenced the air quality measurements that year.
 
-Despite this setback, the proportion of Good to Moderate days has since been recovering.
+Despite this setback, the proportion of `Good` to `Moderate` days has since been recovering.
+
+The `Very Unhealthy`, `Unhealthy` and `Unhealthy for Sensitive Groups` proportions have strong similarities in their curves.
+
+The highest AQI measured in 1984 throughout the entire country was 300, resulting in no Hazardous Air Quality measurements for that year.
