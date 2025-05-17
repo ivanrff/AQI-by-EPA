@@ -57,5 +57,8 @@ Get the average value of the entire country by getting the average of all 'State
 ## 3rd Step: Plot
 ![AQI_throughout_years](plots/AQI_throughout_years.png)
 
-We can see that the average of Hazardous have been gaining momentum by the years, probably taking the space of Very Unhealthy Days, which have been decreasing.
-Also, in 1999 the balance between Good Days and Moderate Days got shifted a bit. A quick research pointed the US experienced a bunch of wildfires in the West during 1999, with the addition of tornadoes and thunderstorms, which may have affected the measurement. Nevertheless, the Good-Moderate days balance has bounced back since then.
+We can observe that the average number of Hazardous days has been steadily increasing over the years, likely encroaching on the number of Very Unhealthy days, which have been on the decline.
+
+In 1999, the balance between Good and Moderate days—which had already been fluctuating since around 1988–1989—was noticeably disrupted. A brief investigation suggests that widespread wildfires in the western U.S., along with tornadoes and thunderstorms, may have influenced the air quality measurements that year.
+
+Despite this setback, the proportion of Good to Moderate days has since been recovering.
