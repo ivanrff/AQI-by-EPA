@@ -21,7 +21,7 @@ This is a data analysis study I did on the US Environmental Protection Agency op
 | **Days PM2.5**                          | Number of days where fine particulate matter (PM2.5) was the primary pollutant.                                                                                                                    |
 | **Days PM10**                           | Number of days where coarse particulate matter (PM10) was the primary pollutant.                                                                                                                   |
 
-# Data Preparation
+# A Warning
 
 First thing, there's a problem evidenced in the 'Days with AQI' column. Some rows have a low amount of days measured, which can skew the data.
 
@@ -32,4 +32,30 @@ Example:
 
 This data, would make us assume that in 1988, Park, Montana had either 1 Hazardous Day or even ~3% hazardous days in that year, both which can't be assumed. This issue is addressed in the code, when necessary.
 
-- https://github.com/ivanrff/AQI-by-EPA/blob/main/AQI_throughout_years.md
+# Average of Air Quality throughout the years
+
+## 1st Step
+Get the weighted AQI value of each 'State' by getting the sum() of all 'County's by 'Year' and dividing by the sum() of Days of measured AQI. Example:
+
+| State  | County | Year | Days with AQI | Good Days |
+| ------ | ------ | ---- | ------------- | --------- |
+| Montana|	  Park|	 1988|	           36| 26        |
+| Montana| Cascade|	 1988|	          206|   178     |
+
+Calculating:
+
+$$X_{Waqi} = \frac{26+178}{36+206} = \frac{204}{242} = 0.8429752$$
+
+Would result in one row such as:
+| State  | Year | Proportion of Good Days |
+| ------ | ------ | ---- |
+| Montana|	 1988| 0.84        |
+
+## 2nd Step
+Get the average value of the entire country by getting the average of all 'State's by 'Year' (Group by 'Year', merging all 'State's and aggregating columns by the average).
+
+## 3rd Step: Plot
+![AQI_throughout_years](plots/AQI_throughout_years.png)
+
+We can see that the average of Hazardous have been gaining momentum by the years, probably taking the space of Very Unhealthy Days, which have been decreasing.
+Also, in 1999 the balance between Good Days and Moderate Days got shifted a bit. A quick research pointed the US experienced a bunch of wildfires in the West during 1999, with the addition of tornadoes and thunderstorms, which may have affected the measurement. Nevertheless, the Good-Moderate days balance has bounced back since then.
