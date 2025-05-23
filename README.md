@@ -59,9 +59,9 @@ Get the average value of the entire country by getting the average of all `State
 
 We can observe that the average number of `Hazardous` days has been steadily increasing over the years, likely encroaching on the number of `Very Unhealthy` days, which have been on the decline.
 
-In 1999, the balance between `Good` and `Moderate` days—which had already been fluctuating since around 1988–1989—was noticeably disrupted. A brief investigation suggests that widespread wildfires in the western U.S., along with tornadoes and thunderstorms, may have influenced the air quality measurements that year.
+In 1999, the balance between `Good` and `Moderate` days—which had already been fluctuating since around 1988–1989—was noticeably disrupted. According to a few sources, the EPA made some changes to its ranking what it considered a Good Day and a Moderate Day between the years of 1998 and 1999, which is probably the reason this disruption was identified.
 
-Despite this setback, the proportion of `Good` to `Moderate` days has since been recovering.
+Despite this, the proportion of `Good` to `Moderate` days, although very unstably, has since been regaining its original proportions.
 
 The `Very Unhealthy`, `Unhealthy` and `Unhealthy for Sensitive Groups` proportions have strong similarities in their curves.
 
