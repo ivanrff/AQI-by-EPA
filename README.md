@@ -71,10 +71,7 @@ Back to it,
 
 **- 3rd Step:** Plot
 
-<div align="center">
-  <img src="plots/AQI_throughout_years.png""/>
-</div>
-</br>
+![AQI_throughout_years Image Plot](plots/AQI_throughout_years.png)
 
 We can observe that the average number of `Hazardous` days has been steadily increasing over the years, likely encroaching on the number of `Very Unhealthy` days, which have been on the decline.
 
@@ -89,6 +86,8 @@ The highest AQI measured in 1984 throughout the entire country was 300, resultin
 # The States
 
 Let's compare each state's air quality average over the years.
+
+![AQI_by_state Image Plot](plots/AQI_by_state.png)
 
 <div align="center">
   <img src="plots/AQI_by_state.png""/>
