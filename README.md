@@ -29,9 +29,11 @@ Since we're going to be analysing the maximum AQI value measured in the whole ye
 2. Checking outliers and taking care of them.
 
 We're choosing first option, but in the Jupyter Notebook I also played around option 2. So, here's the plot:
-
-![AQI_throughout_years](plots/AQI_trends.png)
-
+</br>
+<div align="center">
+  <img src="plots/AQI_trends.png"/>
+</div>
+</br>
 We can see that the Max AQI is dropping fast, but the Median is slightly increasing. Still, it still falls under the 'Good' interval set by EPA.
 
 # Average of Days per AQI Category throughout the years
@@ -69,7 +71,10 @@ Back to it,
 
 **- 3rd Step:** Plot
 
-![AQI_throughout_years](plots/AQI_throughout_years.png)
+<div align="center">
+  <img src="plots/AQI_throughout_years.png""/>
+</div>
+</br>
 
 We can observe that the average number of `Hazardous` days has been steadily increasing over the years, likely encroaching on the number of `Very Unhealthy` days, which have been on the decline.
 
@@ -80,3 +85,12 @@ Despite this, the proportion of `Good` to `Moderate` days, although very unstabl
 The `Very Unhealthy`, `Unhealthy` and `Unhealthy for Sensitive Groups` proportions have strong similarities in their curves.
 
 The highest AQI measured in 1984 throughout the entire country was 300, resulting in no Hazardous Air Quality measurements for that year.
+
+# The States
+
+Let's compare each state's air quality average over the years.
+
+<div align="center">
+  <img src="plots/AQI_by_state.png""/>
+</div>
+</br>
