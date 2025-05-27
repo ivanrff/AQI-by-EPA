@@ -89,7 +89,10 @@ Let's compare each state's air quality average over the years.
 
 ![AQI_by_state Image Plot](plots/AQI_by_state.png)
 
-<div align="center">
-  <img src="plots/AQI_by_state.png""/>
-</div>
-</br>
+We can determine California has the worst air quality in average over the years, and Montana the best.
+
+Here are some of the reasons California might be the worst air quality state:
+1. Geography: mountain ranges trap pollution in valleys (especially the Central Valley and Los Angeles Basin).
+2. Wildfires: frequent and intense wildfires, especially during the dry season.
+3. Population: high population density, especially in cities like Los Angeles and San Francisco.
+4. Industrial and Agricultural Activity: significant agricultural operations (especially in the Central Valley).
