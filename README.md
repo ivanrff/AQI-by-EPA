@@ -29,7 +29,10 @@ Since we're going to be analysing the maximum AQI value measured in the whole ye
 2. Checking outliers and taking care of them.
 
 We're choosing first option, but in the Jupyter Notebook I also played around option 2. So, here's the plot:
+
 ![AQI_throughout_years](plots/AQI_trends.png)
+
+We can see that the Max AQI is dropping fast, but the Median is slightly increasing. Still, it still falls under the 'Good' interval set by EPA.
 
 # Average of Days per AQI Category throughout the years
 
@@ -65,6 +68,7 @@ Back to it,
 **- 2nd Step:** Get the average value of the entire country by getting the average of all `State`s by `Year` (Group by `Year`, merging all `State`s and aggregating columns by the average).
 
 **- 3rd Step:** Plot
+
 ![AQI_throughout_years](plots/AQI_throughout_years.png)
 
 We can observe that the average number of `Hazardous` days has been steadily increasing over the years, likely encroaching on the number of `Very Unhealthy` days, which have been on the decline.
