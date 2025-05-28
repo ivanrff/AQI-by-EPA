@@ -96,3 +96,7 @@ Here are some of the reasons California might be the worst air quality state:
 2. Wildfires: frequent and intense wildfires, especially during the dry season.
 3. Population: high population density, especially in cities like Los Angeles and San Francisco.
 4. Industrial and Agricultural Activity: significant agricultural operations (especially in the Central Valley).
+
+## Top 5 worst AQI Counties from California
+The top 5 worst AQI Counties from California based on the average of the median AQI from 1980 to 2024:
+![Worst AQI California Counties](plots/CA_counties_ranking.png)
