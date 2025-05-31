@@ -104,3 +104,7 @@ The top 5 worst AQI Counties from California based on the average of the median 
   <img src="plots/CA_counties_ranking.png"/>
 </div>
 </br>
+
+These 5 states combined hold approximately 40% of total California population. Los Angeles alone constitutes 24%, based on January 2025 data.
+
+## Los Angeles
