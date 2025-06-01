@@ -113,6 +113,8 @@ These 5 states combined hold approximately 40% of total California population. L
 
 ![LA AQI trends](plots/LA_AQItrends.png)
 
+We can see that the Median AQI dropped considerably in the 90s and has since been steadily decreasing.
+
 ### LA - Average of Days per AQI Category throughout the years
 
 ![LA AQI trends](plots/LA_categorydays.png)
@@ -120,3 +122,5 @@ These 5 states combined hold approximately 40% of total California population. L
 ### LA's most dominant pollutants over the years
 
 ![LA AQI trends](plots/LA_pollutant.png)
+
+The reduction in the number of days where carbon monoxide (CO) was the dominant pollutant after the year 2000 is a direct result of the success of public policy and technological innovation in reducing vehicle emissions, which are the primary source of CO in urban areas.
