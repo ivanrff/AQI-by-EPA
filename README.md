@@ -86,8 +86,11 @@ The highest AQI measured in 1984 throughout the entire country was 300, resultin
 # The States
 
 Let's compare each state's air quality average over the years.
-
-![AQI_by_state Image Plot](plots/AQI_by_state.png)
+</br>
+<div align="center">
+  <img src="plots/AQI_by_state.png"/>
+</div>
+</br>
 
 We can determine California has the worst air quality in average over the years, and Montana the best.
 
@@ -100,7 +103,11 @@ Here are some of the reasons California might be the worst air quality state:
 # California
 Let’s examine how the median and maximum AQI have evolved over time in the state of California, USA.
 
-![CA - Median and Max AQI plots](plots/CA_AQI.png)
+</br>
+<div align="center">
+  <img src="plots/CA_AQI.png"/>
+</div>
+</br>
 
 California appears to generally follow the national trend.
 
@@ -117,8 +124,11 @@ These 5 states combined hold approximately 40% of total California population. L
 ## Los Angeles
 
 ### LA - Median and Max AQIs throughout the years
-
-![LA AQI trends](plots/LA_AQItrends.png)
+</br>
+<div align="center">
+  <img src="plots/LA_AQItrends.png"/>
+</div>
+</br>
 
 We can see that the Median AQI dropped considerably in the 90s and has since been steadily decreasing.
 
@@ -127,7 +137,14 @@ We can see that the Median AQI dropped considerably in the 90s and has since bee
 ![LA AQI trends](plots/LA_categorydays.png)
 
 ### LA's most dominant pollutants over the years
+</br>
+<div align="center">
+  <img src="plots/LA_pollutant.png"/>
+</div>
+</br>
 
-![LA AQI trends](plots/LA_pollutant.png)
+We can observe that there has been a shift in the pollutant rates around the 00s.
 
-The reduction in the number of days where carbon monoxide (CO) was the dominant pollutant after the year 2000 is a direct result of the success of public policy and technological innovation in reducing vehicle emissions, which are the primary source of CO in urban areas.
+The reduction in the number of days where carbon monoxide (CO) was the dominant pollutant, for example, is a direct result of the success of public policy and technological innovation in reducing vehicle emissions, which are the primary source of CO in urban areas.
+
+# Conclusion
