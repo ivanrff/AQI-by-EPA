@@ -148,3 +148,6 @@ We can observe that there has been a shift in the pollutant rates around the 00s
 The reduction in the number of days where carbon monoxide (CO) was the dominant pollutant, for example, is a direct result of the success of public policy and technological innovation in reducing vehicle emissions, which are the primary source of CO in urban areas.
 
 # Conclusion
+Working on this project was a valuable learning experience that helped me deepen my understanding of data analysis. I had the opportunity to apply the full data science workflow—from cleaning and preprocessing raw data to uncovering meaningful patterns.
+
+As a first attempt, this project increased my technical proficiency with real-world data.
