@@ -98,12 +98,11 @@ Here are some of the reasons California might be the worst air quality state:
 4. Industrial and Agricultural Activity: significant agricultural operations (especially in the Central Valley).
 
 # California
-
-Let us see how the Median and Max AQI have been developing for the californian state in the US.
+Let’s examine how the median and maximum AQI have evolved over time in the state of California, USA.
 
 ![CA - Median and Max AQI plots](plots/CA_medianAQI.png)
 
-California has been somewhat following the national trend.
+California appears to generally follow the national trend.
 
 ## Top 5 worst AQI Counties from California
 The top 5 worst AQI Counties from California based on the average of the median AQI from 1980 to 2024:
