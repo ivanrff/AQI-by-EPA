@@ -132,6 +132,8 @@ These 5 states combined hold approximately 40% of total California population. L
 
 We can see that the Median AQI dropped considerably in the 90s and has since been steadily decreasing.
 
+There's also a very obvious measuring error in the Max AQI plot. Any type of maximum value is very sensitive to outliers, so calculating their medians is always a good practice, whenever possible.
+
 ### LA - Average of Days per AQI Category throughout the years
 
 ![LA AQI trends](plots/LA_categorydays.png)
