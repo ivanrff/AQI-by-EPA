@@ -130,7 +130,7 @@ These 5 states combined hold approximately 40% of total California population. L
 </div>
 </br>
 
-We can see that the Median AQI dropped considerably in the 90s and has since been steadily decreasing.
+We can see that the median AQI dropped significantly in the 1990s and has continued to decline steadily since then. This suggests that Los Angeles is not a major contributor to the overall decline in air quality observed in California or across the United States.
 
 There's also a very obvious measuring error in the Max AQI plot. Any type of maximum value is very sensitive to outliers, so calculating their medians is always a good practice, whenever possible.
 
