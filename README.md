@@ -144,9 +144,12 @@ We can see that the Median AQI dropped considerably in the 90s and has since bee
 </br>
 
 We can observe that there has been a shift in the pollutant rates around the 00s, highly as a result of increased regulations.
+
 The reduction in the number of days where carbon monoxide (CO) was the dominant pollutant, for example, is a direct result of the success of public policy and technological innovation in reducing vehicle emissions, which are the primary source of CO in urban areas.
+
 The increase in PM2.5 dominancy is probably due to the frequent wildfires that happened in the last two decades, added the fact that the other pollutants decreased in quantity.
 
 # Conclusion
 Working on this project was a valuable learning experience that helped me deepen my understanding of data analysis and my my technical proficiency with real-world data.
+
 I had the opportunity to apply the full data science workflow—from cleaning and preprocessing raw data to uncovering meaningful patterns.
