@@ -148,6 +148,5 @@ The reduction in the number of days where carbon monoxide (CO) was the dominant 
 The increase in PM2.5 dominancy is probably due to the frequent wildfires that happened in the last two decades, added the fact that the other pollutants decreased in quantity.
 
 # Conclusion
-Working on this project was a valuable learning experience that helped me deepen my understanding of data analysis. I had the opportunity to apply the full data science workflow—from cleaning and preprocessing raw data to uncovering meaningful patterns.
-
-As a first attempt, this project increased my technical proficiency with real-world data.
+Working on this project was a valuable learning experience that helped me deepen my understanding of data analysis and my my technical proficiency with real-world data.
+I had the opportunity to apply the full data science workflow—from cleaning and preprocessing raw data to uncovering meaningful patterns.
